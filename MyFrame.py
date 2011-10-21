@@ -49,7 +49,7 @@ class iFrame(wx.Frame):
         #selfBind(wx.EVT_MENU, self.helpMenuCallback, helpMenu)
 
     def helpMenuCallback(self, e):
-        print e
+        pass
     
     def dbbCallback(self, e):
         #wx.MessageDialog(None, e.GetString().strip()," ", wx.OK).ShowModal()
