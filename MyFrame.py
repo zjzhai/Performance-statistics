@@ -37,7 +37,7 @@ class iFrame(wx.Frame):
         panel.SetSizer(contrainBox)
         self.Bind(wx.EVT_BUTTON, self.btnE, startBtn)
         
-        self.createMenuBar()
+        #self.createMenuBar()
         
 
     def createMenuBar(self):
